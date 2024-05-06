@@ -1,0 +1,66 @@
+/* Add this CSS to your existing CSS file or create a new CSS file */
+
+body {
+   
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+  
+}
+
+table {
+    width: 80%;
+    margin: 10px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.434);
+    background-color: #ffffff94;
+}
+
+th,
+td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #ddd; /* Add border to all cells */
+}
+
+thead {
+    background-color: #8a0505; /* Change the color as needed */
+    color: #fff;
+}
+
+/* tbody tr:nth-child(odd) {
+    background-color: #7e7e7e6b; /* Alternate row color 
+} */
+
+tbody tr {
+    border-bottom: 2px solid #000; /* Add bold line between rows */
+}
+
+tbody tr:last-child {
+    border-bottom: none; /* Remove bottom border from last row */
+}
+
+tbody tr td:last-child {
+    border-right: none; /* Remove right border from last column */
+}
+
+tbody tr:hover {
+    background-color: #e2e2e2;
+}
+
+/* Add line numbers */
+/* tbody tr:before {
+    content: counter(rowNumber);
+    counter-increment: rowNumber;
+    display: table-cell;
+    padding-right: 10px;
+    text-align: center;
+    border-right: 1px solid #ddd; 
+  
+} */
